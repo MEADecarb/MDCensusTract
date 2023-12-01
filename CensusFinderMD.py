@@ -4,7 +4,7 @@ import pandas as pd
 
 # Function to fetch HB550 data
 def fetch_hb550_data():
-    hb550_url = 'https://raw.githubusercontent.com/rmkenv/censusgeocode/main/HB505.json'
+    hb550_url = 'https://raw.githubusercontent.com/MEADecarb/MDCensusTract/main/HB550.json'
     response = requests.get(hb550_url)
     if response.status_code == 200:
         return response.json()
