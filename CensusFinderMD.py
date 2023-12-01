@@ -14,7 +14,7 @@ def fetch_hb550_data():
 
 # Function to fetch school data
 def fetch_school_data():
-    school_url = 'https://raw.githubusercontent.com/rmkenv/censusgeocode/main/MD_k12_to_20ACStract.geojson'
+    school_url = 'https://raw.githubusercontent.com/MEADecarb/MDCensusTract/main/Schools_tracts.geojson'
     response = requests.get(school_url)
     if response.status_code == 200:
         return response.json()
