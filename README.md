@@ -49,4 +49,29 @@ Potential enhancements:
 
 ## License  
 
-MIT
+[CC0](https://creativecommons.org/public-domain/cc0/)
+
+### Privacy Statement for the "Census Tract Finder" Application
+
+#### Data Usage and Collection
+
+- **Purpose of Data Collection**: The "Census Tract Finder" application is designed to provide users with information on census tracts based on the address they input. The data provided by users is used solely for the purpose of fetching relevant information from external sources.
+- **Type of Data Collected**: The application collects the street, city, and state information as entered by the user. This information is necessary to perform the census tract lookup and provide accurate results.
+- **External Data Sources**: The application retrieves data from external sources such as the US Census API, HB550 data, and school data repositories. The user's address information is used to fetch relevant data from these sources.
+
+#### User Privacy and Data Storage
+
+- **No Persistent Data Storage**: Our application does not store any user data persistently. Once the user session ends, all input data and results are discarded.
+- **Disabling Usage Statistics**: In alignment with our commitment to user privacy, we have disabled the gathering of usage statistics in our application. This means no data regarding user interactions with the app is collected or analyzed.
+- **No Cookies or Tracking**: The application does not use cookies or any form of tracking mechanisms to collect data about users.
+
+#### User Consent and Data Usage
+
+- **Consent**: By using the "Census Tract Finder" application, users consent to the temporary processing of their input data (street, city, state) for the sole purpose of obtaining census tract information.
+- **Data Sharing**: No user data is shared with third parties. All data processing occurs within the scope of the application and is solely for the intended purpose as stated.
+
+#### Data Security and Access
+
+- **Security Measures**: While the application does not store user data persistently, it does implement standard security measures to protect the data during the user's session.
+- **User Access**: Users have full control over the data they input and can choose to clear or modify their data at any time during their session.
+
